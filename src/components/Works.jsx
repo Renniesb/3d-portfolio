@@ -11,7 +11,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 // eslint-disable-next-line no-unused-vars
 import { fadeIn, textVariant } from '../utils/motion';
-const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_code_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -55,6 +55,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
 
             </p>
           ))}
+        </div>
+        <div className="project-links mt-6 mb-4">
+            <a href={source_code_link} target="_blank" className="site-button mr-3" rel="noreferrer">
+                GitHub Repo
+            </a>
+            <a href={live_code_link} target="_blank" className="site-button" rel="noreferrer">
+                Live Site
+            </a>
         </div>
       </Tilt>
     </motion.div>

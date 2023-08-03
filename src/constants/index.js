@@ -234,6 +234,7 @@ import {
       ],
       image: dance,
       source_code_link: "https://github.com/Renniesb/total_dance_virtual_classes/",
+      live_code_link: "https://total-dance-virtual-classes.vercel.app/"
     },
     {
       name: "FilmoPedia",
@@ -263,6 +264,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/Renniesb/filmopedia",
+      live_code_link: "https://renniesb.github.io/filmopedia/"
     },
     {
       name: "Flashcards App",
@@ -288,7 +290,38 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/Renniesb/flashcards",
+      live_code_link: "https://renniesb.github.io/flashcards/"
     },
+    // {
+    //   name: "POC Conversational Quiz App",
+    //   description:
+    //     "POC conversational Quiz app is for the students of Peace of Cake English Academy. It was built to learn conversational English through a quiz game. It tests the students listening ability by asking them to complete blanks concerning audio clips they hear in the game.",
+    //   tags: [
+    //     {
+    //       name: "HTML5",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "React.js",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: dance,
+    //   source_code_link: "https://github.com/Renniesb/total_dance_virtual_classes/",
+    //   live_code_link: ""
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
