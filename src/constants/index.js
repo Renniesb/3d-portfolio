@@ -121,7 +121,7 @@ import {
       company_name: "Centene Corporation",
       icon: centene,
       iconBg: "#383E56",
-      date: "Apr 2022 - July 2023",
+      date: "Apr 2022 - December 2022",
       points: [
         "Create UI components and services within the healthcare application in React, TypeScript, GraphQL HTML5, CSS3, Storybook, and the Material design framework",
         "Implemented code changes within React that allowed for over 50 resource links to be connected with AEM leading to a 60% improvement in efficiency when integrating new AEM resources into react components.",
